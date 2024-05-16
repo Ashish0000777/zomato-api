@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "./app.js",
+        "use": "@vecel/node"
+      }
+    ],
+    "routes" : [     {
+      "src": "/(.*)",
+      "dest": "/"
+    }]
+  }
